@@ -1,0 +1,2 @@
+# Django
+All django assignments
