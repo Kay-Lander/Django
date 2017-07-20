@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # python_july_2017
 
 Setup
@@ -12,3 +13,7 @@ Daily Commits
 Please commit daily. That way we can provide you with feedback :) or just a thumbs up if everything looks good. Here is a good resource that describes how daily commit process should go.
 
 https://codingdojo-dallas.slack.com/files/katemoc/F427ZQZPY/github_workflow_v4.pdf
+=======
+# Django
+All django assignments
+>>>>>>> ba000ab1d40807dd13fdd3a03e30cf8e3c77f457
