@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+  <body>
+    {% if messages %}
+    {% for message in messages %}
+      <h1>{{message}}</h1>
+        {% endfor %}
+        {% endif %}
+    Usernames entered:
+    <table>
+      {% for user in users%}
+      <tr>
+        <td>{{user.usersname}}</td>
+        <td>{{user.created_at}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
