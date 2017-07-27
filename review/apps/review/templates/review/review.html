@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  {{book.title}}
+  Author:{{book.author}}
+  <a href="{% url 'success' %}">Home</a>
+  <a href="{% url 'logout' %}">Logout</a>
+  <h1>Reviews</h1>
+  {{% for review in reviews %}}
+  <a href="">{{user.first_name}}</a>say: {{book.review}}
+  {{book.created_at}}
+  {{% endfor %}}
+  <form action="" method="post">
+    {% csrf_token %}
+    <label>Add a review:</label>
+    <textarea name="review" rows="5" cols="10"></textarea>
+    <input type="submit" value="submit review">
+  </form>
+</boby>
+</html>
